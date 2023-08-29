@@ -86,10 +86,15 @@ p {
   margin-left: 1em;
 }
 
-.daily-value p {
+.double-indent {
+  margin-left: 2em;
+}
+
+.daily-value p:not(.no-divider) {
   border-bottom: 1px solid #888989;
 }
 
-.daily-value p:not() {
-  
+.note {
+  font-size: 0.6rem;
+  margin: 5px 0;
 }
